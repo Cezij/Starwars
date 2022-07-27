@@ -1,0 +1,22 @@
+{
+
+  "structures": [
+    {
+      "structure": "csmp:code_structure_sith_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+
+    "salt": 327664760,
+
+
+    "spacing": 40,
+
+
+    "separation": 6,
+
+
+    "type": "minecraft:random_spread"
+  }
+}

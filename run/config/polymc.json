@@ -1,0 +1,14 @@
+{
+  "configVersion": 9,
+  "disabledMixins": [
+    "CustomPacketDisabler"
+  ],
+  "misc": {
+    "processSyncedBlockEventServerSide": [
+      "minecraft:note_block"
+    ]
+  },
+  "remapVanillaBlockIds": false,
+  "enableWizardThreading": false,
+  "maxPacketsPerSecond": 600
+}

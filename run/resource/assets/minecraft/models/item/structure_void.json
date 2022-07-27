@@ -1,0 +1,1 @@
+{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/structure_void"},"overrides":[{"predicate":{"custom_model_data":1.0},"model":"csmp:item/blue_dust_block"}]}

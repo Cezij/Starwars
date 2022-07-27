@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "csmp:blocks/grabas_block"
+  }
+}

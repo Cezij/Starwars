@@ -1,0 +1,22 @@
+{
+
+  "structures": [
+    {
+      "structure": "csmp:code_structure_jedi_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+
+    "salt": 234628736,
+
+
+    "spacing": 40,
+
+
+    "separation": 6,
+
+
+    "type": "minecraft:random_spread"
+  }
+}
