@@ -1,4 +1,5 @@
 # Starwars Mod
+It's going to be released on 28.8.22 
 
 ## License
 
