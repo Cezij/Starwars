@@ -1,9 +1,6 @@
-# Fabric Example Mod
-
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+# Starwars Mod
+It's going to be released on 28.8.22 
 
 ## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+This template is available under the CCO license. Don't use it in other projects. If u use it on your server make sure to credit me.
