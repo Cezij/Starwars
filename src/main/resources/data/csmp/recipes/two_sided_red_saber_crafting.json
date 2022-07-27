@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "I",
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "csmp:red_kyber_crystal"
+        },
+        "I": {
+            "item": "minecraft:iron_block"
+        }
+    },
+    "result": {
+        "item": "csmp:two_sided_red_light_saber",
+        "count": 1
+    }
+}

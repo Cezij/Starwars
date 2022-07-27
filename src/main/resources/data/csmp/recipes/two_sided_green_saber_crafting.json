@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "I",
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "csmp:green_kyber_crystal"
+        },
+        "I": {
+            "item": "minecraft:iron_block"
+        }
+    },
+    "result": {
+        "item": "csmp:two_sided_green_light_saber",
+        "count": 1
+    }
+}

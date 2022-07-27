@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "I"
+    ],
+    "key": {
+        "#": {
+            "item": "csmp:gold_kyber_crystal"
+        },
+        "I": {
+            "item": "minecraft:iron_block"
+        }
+    },
+    "result": {
+        "item": "csmp:gold_light_saber",
+        "count": 1
+    }
+}
