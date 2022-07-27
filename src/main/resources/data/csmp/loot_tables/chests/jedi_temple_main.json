@@ -4,30 +4,39 @@
     {
       "bonus_rolls": 0.0,
       "entries": [
-
         {
           "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "csmp:kyber_crystal"
+          "name": "csmp:blue_kyber_crystal",
+          "weight": 8
+
+
+        },
+        {
+          "type": "minecraft:item",
+          "name": "csmp:green_kyber_crystal",
+          "weight": 4
+
+        },
+        {
+          "type": "minecraft:item",
+          "name": "csmp:orange_kyber_crystal",
+          "weight": 4
+
+        },
+        {
+          "type": "minecraft:item",
+          "name": "csmp:purple_kyber_crystal",
+          "weight": 3
+
+        },
+        {
+          "type": "minecraft:item",
+          "name": "csmp:gold_kyber_crystal",
+          "weight": 1
+
         }
-
-
       ],
-      "rolls": {
-        "type": "minecraft:uniform",
-        "max": 1.0,
-        "min": 1.0
-      }
+      "rolls": 2.0
     }
   ]
 }
