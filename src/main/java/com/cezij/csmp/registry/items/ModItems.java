@@ -5,11 +5,13 @@ import com.cezij.csmp.registry.blocks.ModBlocks;
 import eu.pb4.polymer.api.item.PolymerBlockItem;
 import eu.pb4.polymer.api.item.PolymerItem;
 import eu.pb4.polymer.api.item.SimplePolymerItem;
+import eu.pb4.polymer.api.resourcepack.PolymerModelData;
 import net.minecraft.item.*;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import org.jetbrains.annotations.Nullable;
+
 
 public class ModItems implements PolymerItem {
     //item
@@ -44,6 +46,7 @@ public class ModItems implements PolymerItem {
         Registry.register(Registry.ITEM, new Identifier(SmpMod.MOD_ID,"red_kyber_crystal"),RED_KYBER_CRYSTAL);
         Registry.register(Registry.ITEM, new Identifier(SmpMod.MOD_ID,"uranium_ore"),URANIUM_ORE);
         Registry.register(Registry.ITEM, new Identifier(SmpMod.MOD_ID,"uranim_fragment"),URANIUM_FRAGMENT);
+
 
 
 

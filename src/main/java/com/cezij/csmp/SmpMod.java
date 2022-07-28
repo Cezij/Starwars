@@ -7,7 +7,10 @@ import com.cezij.csmp.registry.items.ModItems;
 import com.cezij.csmp.registry.items.costum.twosided.*;
 import com.cezij.csmp.registry.structures.ModStructures;
 import com.cezij.csmp.villager.ModBlackVillager;
+import eu.pb4.polymer.api.resourcepack.PolymerModelData;
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.item.Items;
+import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import eu.pb4.polymer.api.resourcepack.PolymerRPUtils;
@@ -42,6 +45,7 @@ public class SmpMod implements ModInitializer {
 		TwoSidedOrangeSabor.registerItems();
 		TwoSidedPurpleSabor.registerItems();
 		TwoSidedRedSabor.registerItems();
+		PolymerModelData modelData = PolymerRPUtils.requestModel(Items.NETHERITE_SWORD, new Identifier(SmpMod.MOD_ID, "item/blue_light_saber"));
 
 
 
