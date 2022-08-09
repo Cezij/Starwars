@@ -1,454 +1,455 @@
 {
-  "minecraft:recipes/misc/emerald": {
+  "minecraft:recipes/decorations/light_blue_bed_from_white_bed": {
     "criteria": {
-      "has_emerald_block": "2022-07-27 19:10:19 +0200"
+      "has_bed": "2022-08-03 10:55:35 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/deepslate_brick_stairs_from_deepslate_bricks_stonecutting": {
+  "minecraft:recipes/decorations/smoker": {
     "criteria": {
-      "has_deepslate_bricks": "2022-07-27 17:17:02 +0200"
+      "has_furnace": "2022-08-07 16:12:56 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lever": {
+    "criteria": {
+      "has_cobblestone": "2022-08-03 10:55:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2022-08-03 10:55:40 +0200"
     },
     "done": true
   },
   "minecraft:adventure/kill_a_mob": {
     "criteria": {
-      "minecraft:evoker": "2022-07-27 18:34:05 +0200"
+      "minecraft:enderman": "2022-08-03 11:12:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-08-03 10:55:35 +0200"
     },
     "done": true
   },
   "minecraft:end/root": {
     "criteria": {
-      "entered_end": "2022-07-27 17:11:31 +0200"
+      "entered_end": "2022-08-03 10:56:12 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/deepslate_brick_wall_from_deepslate_bricks_stonecutting": {
+  "minecraft:recipes/misc/paper": {
     "criteria": {
-      "has_deepslate_bricks": "2022-07-27 17:17:02 +0200"
+      "has_reeds": "2022-08-07 16:12:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2022-08-07 16:13:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-08-03 10:55:35 +0200"
     },
     "done": true
   },
   "minecraft:recipes/combat/diamond_chestplate": {
     "criteria": {
-      "has_diamond": "2022-07-27 19:10:19 +0200"
+      "has_diamond": "2022-08-07 18:54:48 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/mangrove_pressure_plate": {
+  "minecraft:story/mine_stone": {
     "criteria": {
-      "has_planks": "2022-07-27 17:17:10 +0200"
+      "get_stone": "2022-08-03 10:55:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone": {
+    "criteria": {
+      "has_cobblestone": "2022-08-03 10:55:40 +0200"
     },
     "done": true
   },
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
-      "has_diamond": "2022-07-27 19:10:19 +0200"
+      "has_diamond": "2022-08-07 18:54:48 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/mangrove_button": {
+  "minecraft:recipes/decorations/furnace": {
     "criteria": {
-      "has_planks": "2022-07-27 17:17:10 +0200"
+      "has_cobblestone": "2022-08-03 10:55:40 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/misc/beacon": {
+  "minecraft:recipes/brewing/cauldron": {
     "criteria": {
-      "has_nether_star": "2022-07-27 15:46:59 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2022-07-28 09:40:43 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
-    "criteria": {
-      "has_end_stone": "2022-07-28 09:40:43 +0200"
+      "has_water_bucket": "2022-08-03 11:15:18 +0200"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:old_growth_pine_taiga": "2022-07-27 15:39:59 +0200",
-      "minecraft:taiga": "2022-07-27 15:39:25 +0200",
-      "minecraft:river": "2022-07-27 15:40:54 +0200",
-      "minecraft:dripstone_caves": "2022-07-27 15:53:01 +0200",
-      "minecraft:forest": "2022-07-27 15:54:51 +0200",
-      "minecraft:old_growth_spruce_taiga": "2022-07-27 15:41:12 +0200",
-      "minecraft:meadow": "2022-07-27 15:39:13 +0200"
+      "minecraft:lukewarm_ocean": "2022-08-07 18:56:10 +0200",
+      "minecraft:river": "2022-08-09 11:43:44 +0200",
+      "minecraft:forest": "2022-08-09 11:43:59 +0200",
+      "minecraft:savanna": "2022-08-03 10:54:27 +0200"
     },
     "done": false
   },
   "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
-      "has_diamond": "2022-07-27 19:10:19 +0200"
+      "has_diamond": "2022-08-07 18:54:48 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/crafting_table": {
+  "minecraft:recipes/decorations/purple_bed_from_white_bed": {
     "criteria": {
-      "has_planks": "2022-07-27 17:17:10 +0200"
+      "has_bed": "2022-08-03 10:55:35 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/redstone": {
+  "minecraft:recipes/decorations/campfire": {
     "criteria": {
-      "has_redstone_block": "2022-07-27 19:13:44 +0200"
+      "has_coal": "2022-08-07 16:13:15 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
+  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
     "criteria": {
-      "has_purpur_block": "2022-07-28 09:21:54 +0200"
+      "has_cobblestone": "2022-08-03 10:55:40 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/purpur_slab": {
+  "minecraft:husbandry/root": {
     "criteria": {
-      "has_purpur_block": "2022-07-28 09:21:54 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "in_water": "2022-07-27 15:46:33 +0200"
+      "consumed_item": "2022-08-03 10:57:46 +0200"
     },
     "done": true
   },
   "minecraft:recipes/decorations/chest": {
     "criteria": {
-      "has_lots_of_items": "2022-07-27 18:34:23 +0200"
+      "has_lots_of_items": "2022-08-03 10:55:17 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+  "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
-      "has_end_stone": "2022-07-28 09:40:43 +0200"
+      "in_water": "2022-08-03 11:17:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-08-03 10:55:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/stone_sword": {
+    "criteria": {
+      "has_cobblestone": "2022-08-03 10:55:40 +0200"
     },
     "done": true
   },
   "minecraft:recipes/transportation/mangrove_boat": {
     "criteria": {
-      "in_water": "2022-07-27 15:46:33 +0200"
+      "in_water": "2022-08-03 11:17:05 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/barrel": {
+  "minecraft:recipes/decorations/cobblestone_wall": {
     "criteria": {
-      "has_planks": "2022-07-27 17:17:10 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/mangrove_sign": {
-    "criteria": {
-      "has_planks": "2022-07-27 17:17:10 +0200"
+      "has_cobblestone": "2022-08-03 10:55:40 +0200"
     },
     "done": true
   },
   "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
-      "in_water": "2022-07-27 15:46:33 +0200"
+      "in_water": "2022-08-03 11:17:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_pickaxe": {
+    "criteria": {
+      "has_cobblestone": "2022-08-03 10:55:40 +0200"
     },
     "done": true
   },
   "minecraft:recipes/combat/diamond_sword": {
     "criteria": {
-      "has_diamond": "2022-07-27 19:10:19 +0200"
+      "has_diamond": "2022-08-07 18:54:48 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/purpur_stairs": {
+  "minecraft:recipes/decorations/cyan_bed_from_white_bed": {
     "criteria": {
-      "has_purpur_block": "2022-07-28 09:21:54 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/stick": {
-    "criteria": {
-      "has_planks": "2022-07-27 17:17:10 +0200"
+      "has_bed": "2022-08-03 10:55:35 +0200"
     },
     "done": true
   },
   "minecraft:adventure/root": {
     "criteria": {
-      "killed_by_something": "2022-07-27 15:46:48 +0200"
+      "killed_something": "2022-08-03 11:12:52 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/deepslate_brick_wall": {
+  "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
-      "has_deepslate_bricks": "2022-07-27 17:17:02 +0200"
+      "has_coal": "2022-08-07 16:13:15 +0200"
     },
     "done": true
   },
   "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
-      "in_water": "2022-07-27 15:46:33 +0200"
+      "in_water": "2022-08-03 11:17:05 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+  "minecraft:recipes/building_blocks/amethyst_block": {
     "criteria": {
-      "has_dandelion": "2022-07-27 15:53:49 +0200"
+      "has_amethyst_shard": "2022-08-07 16:13:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
+    "criteria": {
+      "has_cobblestone": "2022-08-03 10:55:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2022-08-03 11:13:39 +0200"
     },
     "done": true
   },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
-      "in_water": "2022-07-27 15:46:33 +0200"
+      "in_water": "2022-08-03 11:17:05 +0200"
     },
     "done": true
   },
   "minecraft:recipes/decorations/jukebox": {
     "criteria": {
-      "has_diamond": "2022-07-27 19:10:19 +0200"
+      "has_diamond": "2022-08-07 18:54:48 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/misc/netherite_ingot": {
+  "minecraft:nether/netherite_armor": {
     "criteria": {
-      "has_netherite_scrap": "2022-07-27 19:10:19 +0200"
+      "netherite_armor": "2022-08-03 10:54:45 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-08-03 10:55:35 +0200"
     },
     "done": true
   },
   "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
-      "has_iron_block": "2022-07-27 15:40:55 +0200"
+      "has_iron_block": "2022-08-08 09:28:31 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/end_stone_bricks": {
+  "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
-      "has_end_stone": "2022-07-28 09:40:43 +0200"
+      "has_cobblestone": "2022-08-03 10:55:40 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2022-08-03 10:55:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-08-03 10:55:35 +0200"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
-      "has_diamond": "2022-07-27 19:10:19 +0200"
+      "has_diamond": "2022-08-07 18:54:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/stone_hoe": {
+    "criteria": {
+      "has_cobblestone": "2022-08-03 10:55:40 +0200"
     },
     "done": true
   },
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
-      "in_water": "2022-07-27 15:46:33 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_pillar": {
-    "criteria": {
-      "has_purpur_block": "2022-07-28 09:21:54 +0200"
+      "in_water": "2022-08-03 11:17:05 +0200"
     },
     "done": true
   },
   "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
-      "has_diamond": "2022-07-27 19:10:19 +0200"
+      "has_diamond": "2022-08-07 18:54:48 +0200"
     },
     "done": true
   },
   "minecraft:recipes/tools/diamond_hoe": {
     "criteria": {
-      "has_diamond": "2022-07-27 19:10:19 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/emerald_block": {
-    "criteria": {
-      "has_emerald": "2022-07-27 18:34:15 +0200"
+      "has_diamond": "2022-08-07 18:54:48 +0200"
     },
     "done": true
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:evoker": "2022-07-27 18:34:05 +0200",
-      "minecraft:phantom": "2022-07-28 09:16:50 +0200",
-      "minecraft:shulker": "2022-07-28 09:20:03 +0200",
-      "minecraft:enderman": "2022-07-28 09:37:07 +0200"
+      "minecraft:enderman": "2022-08-03 11:12:52 +0200"
     },
     "done": false
   },
   "minecraft:recipes/tools/diamond_shovel": {
     "criteria": {
-      "has_diamond": "2022-07-27 19:10:19 +0200"
+      "has_diamond": "2022-08-07 18:54:48 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
     "criteria": {
-      "has_purpur_block": "2022-07-28 09:21:54 +0200"
+      "has_sugar_cane": "2022-08-07 16:12:52 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-08-03 10:55:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-08-03 10:55:35 +0200"
     },
     "done": true
   },
   "minecraft:story/enter_the_end": {
     "criteria": {
-      "entered_end": "2022-07-27 17:11:31 +0200"
+      "entered_end": "2022-08-03 10:56:12 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+  "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "has_end_stone": "2022-07-28 09:40:43 +0200"
+      "cooked_porkchop": "2022-08-03 10:57:46 +0200",
+      "golden_apple": "2022-08-03 10:57:49 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/pink_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-08-03 10:55:35 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/deepslate_tiles": {
+  "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
-      "has_deepslate_bricks": "2022-07-27 17:17:02 +0200"
+      "has_cobblestone": "2022-08-03 10:55:40 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/mangrove_trapdoor": {
+  "minecraft:recipes/building_blocks/cobblestone_stairs": {
     "criteria": {
-      "has_planks": "2022-07-27 17:17:10 +0200"
+      "has_cobblestone": "2022-08-03 10:55:40 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/misc/mojang_banner_pattern": {
+  "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
     "criteria": {
-      "has_enchanted_golden_apple": "2022-07-27 19:15:47 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/deepslate_tile_wall_from_deepslate_bricks_stonecutting": {
-    "criteria": {
-      "has_deepslate_bricks": "2022-07-27 17:17:02 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/deepslate_tile_slab_from_deepslate_bricks_stonecutting": {
-    "criteria": {
-      "has_deepslate_bricks": "2022-07-27 17:17:02 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mangrove_slab": {
-    "criteria": {
-      "has_planks": "2022-07-27 17:17:10 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/deepslate_brick_slab": {
-    "criteria": {
-      "has_deepslate_bricks": "2022-07-27 17:17:02 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2022-07-28 09:21:54 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/deepslate_brick_slab_from_deepslate_bricks_stonecutting": {
-    "criteria": {
-      "has_deepslate_bricks": "2022-07-27 17:17:02 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/deepslate_tile_stairs_from_deepslate_bricks_stonecutting": {
-    "criteria": {
-      "has_deepslate_bricks": "2022-07-27 17:17:02 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/deepslate_tiles_from_deepslate_bricks_stonecutting": {
-    "criteria": {
-      "has_deepslate_bricks": "2022-07-27 17:17:02 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/shulker_box": {
-    "criteria": {
-      "has_shulker_shell": "2022-07-28 09:20:08 +0200"
+      "has_bed": "2022-08-03 10:55:35 +0200"
     },
     "done": true
   },
   "minecraft:recipes/combat/diamond_boots": {
     "criteria": {
-      "has_diamond": "2022-07-27 19:10:19 +0200"
+      "has_diamond": "2022-08-07 18:54:48 +0200"
     },
     "done": true
   },
   "minecraft:story/mine_diamond": {
     "criteria": {
-      "diamond": "2022-07-27 19:10:19 +0200"
+      "diamond": "2022-08-07 18:54:48 +0200"
     },
     "done": true
   },
   "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
-      "has_diamond": "2022-07-27 19:10:19 +0200"
+      "has_diamond": "2022-08-07 18:54:48 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_bed_from_white_bed": {
+    "criteria": {
+      "has_bed": "2022-08-03 10:55:35 +0200"
+    },
+    "done": true
+  },
+  "minecraft:end/respawn_dragon": {
+    "criteria": {
+      "summoned_dragon": "2022-08-03 11:12:33 +0200"
     },
     "done": true
   },
   "minecraft:story/root": {
     "criteria": {
-      "crafting_table": "2022-07-27 15:40:59 +0200"
+      "crafting_table": "2022-08-07 16:13:44 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/mangrove_fence": {
+  "minecraft:adventure/totem_of_undying": {
     "criteria": {
-      "has_planks": "2022-07-27 17:17:10 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/soul_lantern": {
-    "criteria": {
-      "has_soul_torch": "2022-07-27 19:21:44 +0200"
+      "used_totem": "2022-08-03 10:57:55 +0200"
     },
     "done": true
   },
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
-      "in_water": "2022-07-27 15:46:33 +0200"
+      "in_water": "2022-08-03 11:17:05 +0200"
     },
     "done": true
   },
   "minecraft:recipes/decorations/anvil": {
     "criteria": {
-      "has_iron_block": "2022-07-27 15:40:55 +0200"
+      "has_iron_block": "2022-08-08 09:28:31 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/deepslate_brick_stairs": {
+  "minecraft:recipes/tools/stone_axe": {
     "criteria": {
-      "has_deepslate_bricks": "2022-07-27 17:17:02 +0200"
+      "has_cobblestone": "2022-08-03 10:55:40 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mangrove_stairs": {
+  "minecraft:recipes/decorations/blue_bed_from_white_bed": {
     "criteria": {
-      "has_planks": "2022-07-27 17:17:10 +0200"
+      "has_bed": "2022-08-03 10:55:35 +0200"
     },
     "done": true
   },
-  "minecraft:end/find_end_city": {
+  "minecraft:recipes/decorations/light_gray_bed_from_white_bed": {
     "criteria": {
-      "in_city": "2022-07-28 09:21:27 +0200"
+      "has_bed": "2022-08-03 10:55:35 +0200"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cracked_deepslate_bricks": {
+  "minecraft:recipes/tools/spyglass": {
     "criteria": {
-      "has_deepslate_bricks": "2022-07-27 17:17:02 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/mangrove_door": {
-    "criteria": {
-      "has_planks": "2022-07-27 17:17:10 +0200"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/mangrove_fence_gate": {
-    "criteria": {
-      "has_planks": "2022-07-27 17:17:10 +0200"
+      "has_amethyst_shard": "2022-08-07 16:13:38 +0200"
     },
     "done": true
   },

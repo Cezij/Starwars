@@ -1,6 +1,6 @@
-[10:43:03] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.1 with Fabric Loader 0.14.8
-[10:43:03] [main/INFO] (FabricLoader) Loading 38 mods:
-	- csmp 0.0.1-1.19.1
+[15:10:56] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.19.1 with Fabric Loader 0.14.8
+[15:10:56] [main/INFO] (FabricLoader) Loading 39 mods:
+	- csmp 1.4.0-1.19.1
 	- fabric 0.58.4+1.19.1
 	- fabric-api-base 0.4.9+e62f51a3ff
 	- fabric-api-lookup-api-v1 1.6.7+9ff28f40ff
@@ -37,71 +37,48 @@
 	- minecraft 1.19.1
 	- packet_tweaker 0.3.0+1.18.2
 	- polymer 0.2.10+1.19.1
+	- polymer-blocks-ext 0.1.0-alpha.8+1.19.1
 	- polymer-registry-sync-manipulator 0.0.1+1.19.1
-[10:43:03] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/gradle/gradle-7.4.1/bin/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/c1dc27696aa4006e492c2485c9ccbcb26045a971/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[10:43:04] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[10:43:04] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[10:43:04] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[10:43:05] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.properties file on the classpath
-[10:43:06] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
-[10:43:09] [main/INFO] (Minecraft) Building unoptimized datafixer
-[10:43:11] [main/INFO] (StarCraftSMP) GLaDOS.jar loading [===========50%          ]
-[10:43:12] [main/INFO] (StarCraftSMP) GLaDOS.jar loading [===========100%=========]
-[10:43:12] [main/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[10:43:14] [main/INFO] (Minecraft) Loaded 7 recipes
-[10:43:14] [main/INFO] (Minecraft) Loaded 1179 advancements
-[10:43:15] [main/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 63 new biomes in 3.021 ms
-[10:43:15] [Server thread/INFO] (Minecraft) Starting minecraft server version 1.19.1
-[10:43:15] [Server thread/INFO] (Minecraft) Loading properties
-[10:43:15] [Server thread/INFO] (Minecraft) Default game type: SURVIVAL
-[10:43:15] [Server thread/INFO] (Minecraft) Generating keypair
-[10:43:15] [Server thread/INFO] (Minecraft) Starting Minecraft server on *:25565
-[10:43:15] [Server thread/INFO] (Minecraft) Using default channel type
-[10:43:15] [Server thread/INFO] (Minecraft) Preparing level "world"
-[10:43:16] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[10:43:18] [Server thread/ERROR] (Minecraft) Unknown structure start: csmp:json_only_house
-[10:43:19] [Server thread/ERROR] (Minecraft) Unknown structure start: csmp:json_only_house
-[10:43:19] [Server thread/ERROR] (Minecraft) Unknown structure start: csmp:json_only_house
-[10:43:19] [Server thread/ERROR] (Minecraft) Unknown structure start: csmp:json_only_house
-[10:43:19] [Server thread/ERROR] (Minecraft) Unknown structure start: csmp:json_only_house
-[10:43:19] [Server thread/ERROR] (Minecraft) Unknown structure start: csmp:json_only_house
-[10:43:20] [Worker-Main-6/INFO] (Minecraft) Preparing spawn area: 0%
-[10:43:20] [Worker-Main-6/INFO] (Minecraft) Preparing spawn area: 0%
-[10:43:20] [Worker-Main-7/INFO] (Minecraft) Preparing spawn area: 0%
-[10:43:20] [Worker-Main-11/INFO] (Minecraft) Preparing spawn area: 0%
-[10:43:20] [Worker-Main-4/INFO] (Minecraft) Preparing spawn area: 0%
-[10:43:20] [Worker-Main-11/INFO] (Minecraft) Preparing spawn area: 0%
-[10:43:20] [Worker-Main-10/INFO] (Minecraft) Preparing spawn area: 0%
-[10:43:20] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 0%
-[10:43:20] [Worker-Main-5/INFO] (Minecraft) Preparing spawn area: 0%
-[10:43:20] [Worker-Main-4/INFO] (Minecraft) Preparing spawn area: 32%
-[10:43:21] [Server thread/INFO] (Minecraft) Time elapsed: 4973 ms
-[10:43:21] [Server thread/INFO] (Minecraft) Done (5.301s)! For help, type "help"
-[10:44:06] [User Authenticator #1/INFO] (Minecraft) UUID of player Cezij is 5d742d37-1ccb-47ad-bc78-48594388d217
-[10:44:06] [Server thread/INFO] (Minecraft) Cezij[/127.0.0.1:61256] logged in with entity id 132 at (-3389.4147691032367, 47.200000047683716, 38597.65899221084)
-[10:44:06] [Server thread/INFO] (Minecraft) Cezij joined the game
-[10:44:15] [IO-Worker-14/INFO] (Minecraft) [Cezij: Starting resource pack generation...]
-[10:44:15] [Server thread/INFO] (Minecraft) [Cezij: Resource pack created successfully! You can find it in game folder as polymer-resourcepack.zip]
-[10:44:40] [Server thread/INFO] (Minecraft) Cezij lost connection: Disconnected
-[10:44:40] [Server thread/INFO] (Minecraft) Cezij left the game
-[10:45:09] [User Authenticator #2/INFO] (Minecraft) UUID of player Cezij is 5d742d37-1ccb-47ad-bc78-48594388d217
-[10:45:09] [Server thread/INFO] (Minecraft) Cezij[/127.0.0.1:61318] logged in with entity id 226 at (-3389.4147691032367, 47.200000047683716, 38597.65899221084)
-[10:45:09] [Server thread/INFO] (Minecraft) Cezij joined the game
-[10:45:43] [Server thread/INFO] (Minecraft) Cezij lost connection: Disconnected
-[10:45:43] [Server thread/INFO] (Minecraft) Cezij left the game
-[10:46:11] [User Authenticator #3/INFO] (Minecraft) UUID of player Cezij is 5d742d37-1ccb-47ad-bc78-48594388d217
-[10:46:11] [Server thread/INFO] (Minecraft) Cezij[/127.0.0.1:61376] logged in with entity id 320 at (-3389.4147691032367, 47.200000047683716, 38597.65899221084)
-[10:46:11] [Server thread/INFO] (Minecraft) Cezij joined the game
-[10:46:29] [Server thread/INFO] (Minecraft) Cezij lost connection: Disconnected
-[10:46:29] [Server thread/INFO] (Minecraft) Cezij left the game
-[10:46:35] [Server thread/INFO] (Minecraft) Stopping the server
-[10:46:35] [Server thread/INFO] (Minecraft) Stopping server
-[10:46:35] [Server thread/INFO] (Minecraft) Saving players
-[10:46:35] [Server thread/INFO] (Minecraft) Saving worlds
-[10:46:35] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[10:46:35] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[10:46:35] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[10:46:35] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (world): All chunks are saved
-[10:46:35] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:46:35] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:46:35] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[15:10:57] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/gradle/gradle-7.4.1/bin/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.11.4+mixin.0.8.5/c1dc27696aa4006e492c2485c9ccbcb26045a971/sponge-mixin-0.11.4+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[15:10:57] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[15:10:57] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[15:10:57] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[15:10:59] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.properties file on the classpath
+[15:11:00] [main/WARN] (FileUtil) Configuration conflict: there is more than one oshi.architecture.properties file on the classpath
+[15:11:05] [main/INFO] (Minecraft) Building unoptimized datafixer
+[15:11:08] [main/INFO] (StarCraftSMP) GLaDOS.jar loading [===========50%          ]
+[15:11:08] [main/INFO] (StarCraftSMP) GLaDOS.jar loading [===========100%=========]
+[15:11:08] [main/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:11:11] [main/INFO] (Minecraft) Loaded 7 recipes
+[15:11:11] [main/INFO] (Minecraft) Loaded 1179 advancements
+[15:11:12] [main/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 63 new biomes in 3.264 ms
+[15:11:12] [Server thread/INFO] (Minecraft) Starting minecraft server version 1.19.1
+[15:11:12] [Server thread/INFO] (Minecraft) Loading properties
+[15:11:12] [Server thread/INFO] (Minecraft) Default game type: SURVIVAL
+[15:11:12] [Server thread/INFO] (Minecraft) Generating keypair
+[15:11:12] [Server thread/INFO] (Minecraft) Starting Minecraft server on *:25565
+[15:11:13] [Server thread/INFO] (Minecraft) Using default channel type
+[15:11:13] [Server thread/INFO] (Minecraft) Preparing level "world"
+[15:11:13] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[15:11:17] [Worker-Main-8/INFO] (Minecraft) Preparing spawn area: 0%
+[15:11:17] [Worker-Main-8/INFO] (Minecraft) Preparing spawn area: 0%
+[15:11:17] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[15:11:17] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 0%
+[15:11:17] [Worker-Main-4/INFO] (Minecraft) Preparing spawn area: 0%
+[15:11:17] [Worker-Main-4/INFO] (Minecraft) Preparing spawn area: 0%
+[15:11:17] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[15:11:17] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 0%
+[15:11:17] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 10%
+[15:11:18] [Worker-Main-9/INFO] (Minecraft) Preparing spawn area: 52%
+[15:11:18] [Server thread/INFO] (Minecraft) Time elapsed: 4707 ms
+[15:11:18] [Server thread/INFO] (Minecraft) Done (5.129s)! For help, type "help"
+[15:12:38] [IO-Worker-15/INFO] (Minecraft) Starting resource pack generation...
+[15:12:39] [Server thread/INFO] (Minecraft) Resource pack created successfully! You can find it in game folder as polymer-resourcepack.zip
+[15:14:12] [User Authenticator #1/INFO] (Minecraft) UUID of player Cezij is 5d742d37-1ccb-47ad-bc78-48594388d217
+[15:14:13] [Server thread/INFO] (Minecraft) Cezij[/127.0.0.1:62957] logged in with entity id 58 at (-835.4337157947379, 105.49009722949626, -582.9419080270487)
+[15:14:13] [Server thread/INFO] (Minecraft) Cezij joined the game
+[15:14:32] [Server thread/INFO] (Minecraft) [Cezij: Changed the block at -836, 105, -585]
+[15:15:35] [Server thread/INFO] (Minecraft) [Cezij: Changed the block at -852, 112, -594]
+[15:19:19] [Server thread/INFO] (Minecraft) Stopping server
+[15:19:19] [Server thread/INFO] (Minecraft) Saving players
+[15:19:19] [Server thread/INFO] (Minecraft) Saving worlds

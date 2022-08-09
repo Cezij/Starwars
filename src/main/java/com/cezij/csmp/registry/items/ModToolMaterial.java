@@ -8,7 +8,7 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    KYBER_CRYSTAL(4, 200000, 0.0F, 50.0F, 15, () -> {
+    KYBER_CRYSTAL(4, 2000000, 0.0F, 50.0F, 15, () -> {
         return Ingredient.ofItems(ModItems.KYBER_CRYSTAL);
     });
 

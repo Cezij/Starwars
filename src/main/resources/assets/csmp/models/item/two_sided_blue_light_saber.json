@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "csmp:textures/items/two_sided_blue_light_saber"
+  }
+}

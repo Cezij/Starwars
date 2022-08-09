@@ -21,6 +21,11 @@
         },
         {
           "type": "minecraft:item",
+          "name": "csmp:blaster",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:iron_block",
           "weight": 2
         },

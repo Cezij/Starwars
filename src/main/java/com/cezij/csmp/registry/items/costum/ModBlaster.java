@@ -7,6 +7,8 @@ import com.cezij.csmp.registry.items.ModItemTags;
 import com.cezij.csmp.registry.items.ModItems;
 import com.google.common.collect.Lists;
 import eu.pb4.polymer.api.item.PolymerItem;
+import eu.pb4.polymer.api.resourcepack.PolymerModelData;
+import eu.pb4.polymer.api.resourcepack.PolymerRPUtils;
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.enchantment.EnchantmentHelper;
@@ -89,7 +91,7 @@ public class ModBlaster extends RangedWeaponItem implements PolymerItem {
             if (EnchantmentHelper.getLevel(Enchantments.FLAME, stack) > 0) {
                 persistentProjectileEntity.setOnFireFor(100);
             }
-            stack.damage(1, playerEntity, p -> p.sendToolBreakStatus(playerEntity.getActiveHand()));
+            stack.damage(0, playerEntity, p -> p.sendToolBreakStatus(playerEntity.getActiveHand()));
             if (bl2 || playerEntity.getAbilities().creativeMode && (itemStack.isOf(Items.SPECTRAL_ARROW) || itemStack.isOf(Items.TIPPED_ARROW))) {
                 persistentProjectileEntity.pickupType = PersistentProjectileEntity.PickupPermission.CREATIVE_ONLY;
             }
@@ -97,7 +99,7 @@ public class ModBlaster extends RangedWeaponItem implements PolymerItem {
         }
         world.playSound(null, playerEntity.getX(), playerEntity.getY(), playerEntity.getZ(), SoundEvents.ENTITY_ARROW_SHOOT, SoundCategory.PLAYERS, 1.0f, 1.0f / (world.getRandom().nextFloat() * 0.4f + 1.2f) + f * 0.5f);
         if (!bl2 && !playerEntity.getAbilities().creativeMode) {
-            itemStack.decrement(1);
+            itemStack.decrement(0);
             if (itemStack.isEmpty()) {
                 playerEntity.getInventory().removeOne(itemStack);
             }
@@ -155,7 +157,11 @@ public class ModBlaster extends RangedWeaponItem implements PolymerItem {
     public Item getPolymerItem(ItemStack itemStack, @Nullable ServerPlayerEntity player) {
         return Items.STICK;
     }
+    public int getPolymerCustomModelData(ItemStack itemStack, @Nullable ServerPlayerEntity player) {
+        return 1;
+    }
     public static void registerItems(){
         Registry.register(Registry.ITEM,new Identifier(SmpMod.MOD_ID,"blaster"),new ModBlaster(new Item.Settings().group(ItemGroup.COMBAT).maxDamage(800)));
+        PolymerModelData modelData = PolymerRPUtils.requestModel(Items.STICK, new Identifier(SmpMod.MOD_ID, "item/blaster"));
     }
 }

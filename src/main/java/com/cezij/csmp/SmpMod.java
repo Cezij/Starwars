@@ -2,8 +2,13 @@ package com.cezij.csmp;
 
 import com.cezij.csmp.registry.blocks.ModBlocks;
 //import com.cezij.csmp.registry.items.costum.BlueSabor;
+import com.cezij.csmp.registry.blocks.custom.GoofyBlock;
 import com.cezij.csmp.registry.items.costum.*;
 import com.cezij.csmp.registry.items.ModItems;
+import com.cezij.csmp.registry.items.costum.crystals.*;
+import com.cezij.csmp.registry.items.costum.drugs.Cocaine;
+import com.cezij.csmp.registry.items.costum.drugs.CrystalMeth;
+import com.cezij.csmp.registry.items.costum.drugs.Meth;
 import com.cezij.csmp.registry.items.costum.twosided.*;
 import com.cezij.csmp.registry.structures.ModStructures;
 import com.cezij.csmp.villager.ModBlackVillager;
@@ -27,26 +32,52 @@ public class SmpMod implements ModInitializer {
 		ModItems.registerItems();
 		ModBlocks.registerBlocks();
 		PolymerRPUtils.addAssetSource(MOD_ID);
+		//statt
 		BlueSabor.registerItems();
-		GreenSabor.registerItems();
 		GoldSabor.registerItems();
+		GreenSabor.registerItems();
 		OrangeSabor.registerItems();
 		PurpleSabor.registerItems();
-		ModBlackVillager.registerVillagers();
-		ModBlackVillager.registerTrades();
-		BlasterFuel.registerItems();
-		ModBlaster.registerItems();
-		DarkSabor.registerItems();
-		ModStructures.registerStructureFeatures();
 		RedSabor.registerItems();
+
+
+
 		TwoSidedBlueSabor.registerItems();
 		TwoSidedGoldSabor.registerItems();
 		TwoSidedGreenSabor.registerItems();
 		TwoSidedOrangeSabor.registerItems();
 		TwoSidedPurpleSabor.registerItems();
 		TwoSidedRedSabor.registerItems();
-		PolymerModelData modelData = PolymerRPUtils.requestModel(Items.NETHERITE_SWORD, new Identifier(SmpMod.MOD_ID, "item/blue_light_saber"));
 
+		BlueCrystal.registerItems();
+		GoldCrystal.registerItems();
+		GreenCrystal.registerItems();
+		OrangeCrystal.registerItems();
+		PurpleCrystal.registerItems();
+		RedCrystal.registerItems();
+
+		DarkSabor.registerItems();
+
+		BlasterFuel.registerItems();
+		ModBlaster.registerItems();
+
+		ModCrossGuard.registerItems();
+
+		ModBlackVillager.registerVillagers();
+		ModBlackVillager.registerTrades();
+
+		//drugs
+		Cocaine.registerItems();
+		Meth.registerItems();
+		CrystalMeth.registerItems();
+		//--
+
+		//blocks
+		GoofyBlock.registerBlocks();
+		//--
+
+
+		ModStructures.registerStructureFeatures();
 
 
 		LOGGER.info("GLaDOS.jar loading [===========100%=========]");

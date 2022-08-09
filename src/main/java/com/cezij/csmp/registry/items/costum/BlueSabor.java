@@ -36,10 +36,14 @@ public class BlueSabor extends SwordItem implements PolymerItem {
     public Item getPolymerItem(ItemStack itemStack, @Nullable ServerPlayerEntity player) {
         return Items.NETHERITE_SWORD;
     }
+    public int getPolymerCustomModelData(ItemStack itemStack, @Nullable ServerPlayerEntity player) {
+        return 1;
+    }
 
 
     public static void registerItems(){
         Registry.register(Registry.ITEM,new Identifier(SmpMod.MOD_ID,"blue_light_saber"),new BlueSabor(ModToolMaterial.KYBER_CRYSTAL,1,1.0f,new Item.Settings().group(ItemGroup.COMBAT).fireproof()));
+        PolymerModelData modelData = PolymerRPUtils.requestModel(Items.NETHERITE_SWORD, new Identifier(SmpMod.MOD_ID, "item/blue_light_saber"));
 
 
 

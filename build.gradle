@@ -22,6 +22,7 @@ repositories {
 dependencies {
 	// To change the versions see the gradle.properties file
 	modImplementation include("eu.pb4:polymer:0.2.10+1.19.1")
+	modImplementation include("eu.pb4:polymer-blocks:0.1.0-alpha.8+1.19.1")
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"

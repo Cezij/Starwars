@@ -1,6 +1,6 @@
 {
-  "parent": "item/generated",
+  "parent": "item/handheld",
   "textures": {
-    "layer0": "csmp:textures/items/blue_light_saber"
+    "layer0": "csmp:textures/items/green_light_saber"
   }
 }

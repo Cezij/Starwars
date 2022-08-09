@@ -3,6 +3,8 @@ package com.cezij.csmp.registry.items.costum;
 import com.cezij.csmp.SmpMod;
 import com.cezij.csmp.registry.items.ModToolMaterial;
 import eu.pb4.polymer.api.item.PolymerItem;
+import eu.pb4.polymer.api.resourcepack.PolymerModelData;
+import eu.pb4.polymer.api.resourcepack.PolymerRPUtils;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.*;
 import net.minecraft.server.network.ServerPlayerEntity;
@@ -34,8 +36,12 @@ public class ModCrossGuard extends SwordItem implements PolymerItem {
     public Item getPolymerItem(ItemStack itemStack, @Nullable ServerPlayerEntity player) {
         return Items.NETHERITE_SWORD;
     }
+    public int getPolymerCustomModelData(ItemStack itemStack, @Nullable ServerPlayerEntity player) {
+        return 15;
+    }
     public static void registerItems(){
-        Registry.register(Registry.ITEM,new Identifier(SmpMod.MOD_ID,"red_light_saber"),new ModCrossGuard(ModToolMaterial.KYBER_CRYSTAL,1,1.0f,new Settings().group(ItemGroup.COMBAT).fireproof()));
+        Registry.register(Registry.ITEM,new Identifier(SmpMod.MOD_ID,"cross_guard"),new ModCrossGuard(ModToolMaterial.KYBER_CRYSTAL,1,1.0f,new Settings().group(ItemGroup.COMBAT).fireproof()));
+        PolymerModelData modelData = PolymerRPUtils.requestModel(Items.NETHERITE_SWORD, new Identifier(SmpMod.MOD_ID, "item/cross_guard"));
 
     }
 }

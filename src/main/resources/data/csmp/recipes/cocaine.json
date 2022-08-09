@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:sugar_cane"
+  },
+  "result": "csmp:cocaine",
+  "experience": 50,
+  "cookingtime": 200
+}
