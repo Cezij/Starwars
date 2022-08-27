@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.object.builder.v1.trade.TradeOfferHelper;
 import net.fabricmc.fabric.api.object.builder.v1.villager.VillagerProfessionBuilder;
 import net.fabricmc.fabric.api.object.builder.v1.world.poi.PointOfInterestHelper;
 import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.sound.SoundEvents;
@@ -24,7 +25,7 @@ public class ModBlackVillager {
 
     }
 
-    public static final PointOfInterestType JUMPY_POI = registerPOI("jumpy_poi", ModBlocks.URANIUM_ORE);
+    public static final PointOfInterestType JUMPY_POI = registerPOI("jumpy_poi", Blocks.ANCIENT_DEBRIS);
     public static VillagerProfession BLACK_VILLAGER = registerProfession("blackvillager",RegistryKey.of(Registry.POINT_OF_INTEREST_TYPE_KEY, new Identifier(SmpMod.MOD_ID, "jumpy_poi")));
 
     public static PointOfInterestType registerPOI(String name, Block block){

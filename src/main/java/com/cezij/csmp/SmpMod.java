@@ -5,6 +5,7 @@ import com.cezij.csmp.registry.blocks.ModBlocks;
 import com.cezij.csmp.registry.blocks.custom.GoofyBlock;
 import com.cezij.csmp.registry.items.costum.*;
 import com.cezij.csmp.registry.items.ModItems;
+import com.cezij.csmp.registry.items.costum.alcohol.Beer;
 import com.cezij.csmp.registry.items.costum.crystals.*;
 import com.cezij.csmp.registry.items.costum.drugs.Cocaine;
 import com.cezij.csmp.registry.items.costum.drugs.CrystalMeth;
@@ -74,6 +75,9 @@ public class SmpMod implements ModInitializer {
 
 		//blocks
 		GoofyBlock.registerBlocks();
+		//--
+		//beer
+		Beer.registerItems();
 		//--
 
 

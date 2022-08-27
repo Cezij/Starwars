@@ -1,7 +1,7 @@
 package com.cezij.csmp.registry.blocks.custom;
 
 import com.cezij.csmp.SmpMod;
-import eu.pb4.polymer.api.resourcepack.PolymerRPUtils;
+
 import eu.pb4.polymer.ext.blocks.api.BlockModelType;
 import eu.pb4.polymer.ext.blocks.api.PolymerBlockModel;
 import eu.pb4.polymer.ext.blocks.api.PolymerBlockResourceUtils;

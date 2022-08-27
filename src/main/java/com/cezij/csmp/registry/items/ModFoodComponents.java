@@ -10,6 +10,7 @@ public class ModFoodComponents extends FoodComponents {
     public static final FoodComponent POISON = new FoodComponent.Builder().hunger(0).saturationModifier(0.0f).statusEffect(new StatusEffectInstance(StatusEffects.POISON,5000,50),0.9f).statusEffect(new StatusEffectInstance(StatusEffects.INSTANT_DAMAGE,20,20000000),0.9f).alwaysEdible().build();
     public static final FoodComponent DRUGS = new FoodComponent.Builder().hunger(0).saturationModifier(0.0f).statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA,1800,255),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED,1200,5),0.9f).statusEffect(new StatusEffectInstance(StatusEffects.POISON,200,2555),0.01f).alwaysEdible().build(); //nothing sus
     public static final FoodComponent CRYSTAL_METH = new FoodComponent.Builder().hunger(0).saturationModifier(0.0f).statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA,3600,510),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED,2400,20),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.POISON,400,10000),0.2f).alwaysEdible().build(); //nothing sus
+    public static final FoodComponent BEER = new FoodComponent.Builder().hunger(0).saturationModifier(0.0f).statusEffect(new StatusEffectInstance(StatusEffects.BAD_OMEN,3984639,40),1.0f).statusEffect(new StatusEffectInstance(StatusEffects.SPEED,5000,100),1.0f).build();
 
 //ismon is the worts cus he s bad nobody likkes him idk what to say abt him
 }
